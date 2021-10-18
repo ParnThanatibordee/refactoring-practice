@@ -8,6 +8,23 @@ Each subdirectory contains some code that needs refactoring.
 2. Perform the refactoring in the subdirectory code.
 
 
+## My Refactor
+
+###timestamp.py:  
+1. Change to python name style.  
+2. Use meaningful name.  
+3. Extract condition to a function.  
+  
+###gamelib.py:  
+1. Replace side effect with return value.  
+2. Add method add_element and remove_element.  
+3. Extract default value of parameter to be a constant.  
+  
+###main.py:  
+1. Substitute Algorithm.  
+2. Replace the body of the method to be a loop of test case list.
+
+
 ## `time/timestamp.py`
 
 Refactor timestamp.py.  2 or 3 refactorings are possible.
