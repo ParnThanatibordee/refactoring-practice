@@ -10,17 +10,17 @@ Each subdirectory contains some code that needs refactoring.
 
 ## My Refactor
 
-###timestamp.py:  
+timestamp.py:  
 1. Change to python name style.  
 2. Use meaningful name.  
 3. Extract condition to a function.  
   
-###gamelib.py:  
+gamelib.py:  
 1. Replace side effect with return value.  
 2. Add method add_element and remove_element.  
 3. Extract default value of parameter to be a constant.  
   
-###main.py:  
+main.py:  
 1. Create a function that create an order instead of do it repeatedly.  
 
 
