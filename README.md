@@ -21,8 +21,7 @@ Each subdirectory contains some code that needs refactoring.
 3. Extract default value of parameter to be a constant.  
   
 ###main.py:  
-1. Substitute Algorithm.  
-2. Replace the body of the method to be a loop of test case list.
+1. Create a function that create an order instead of do it repeatedly.  
 
 
 ## `time/timestamp.py`
